@@ -23,8 +23,7 @@ Messages are formatted to to show which **BRANCH** changes were committed to. Wh
 To add a message to a commit, provide the **-m** option.
 <b>
 
-### Setting a specific commit header:
-Message options are:
+### Commit header options:
 * **-s**: *STABLE*
 * **-b**: *BROKEN*
 * **-f**: *FEATURE*
