@@ -11,7 +11,7 @@ npm install gulp shelljs yargs --save
 ---
 <b>
 
-#### This Gulpfile.js is a script that ``` git add .``` then ```git commit``` then finally ```git push [branch] [remote]```.
+### This Gulpfile.js is a script that ``` git add .``` then ```git commit``` then finally ```git push [branch] [remote]```.
 ---
 <b>
 
