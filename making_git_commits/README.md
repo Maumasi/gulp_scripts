@@ -11,6 +11,9 @@ npm install gulp shelljs yargs --save
 ---
 <b>
 
+This Gulpfile.js is a script that ``` git add .``` then ```git commit``` then finally ```git push [branch] [remote]```.
+---
+<b>
 
 ## Message types:
 
@@ -41,6 +44,7 @@ Message options are:
 *A standard message commit*
 Commands in the Terminal:
 ```bash
+# Pushing a commit with a message
 gulp push -m "setting up gulp automation"
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: MESSAGE :: setting up gulp automation
@@ -75,3 +79,6 @@ gulp push -s
 ## Generated message:
 
 The **[BRANCH]** and **[USER]** components of the message are auto generated and will be generated from the current active branch and the git user assigned when to the GIT instance on the machine.
+<b>
+
+When pushing up to a remote branch the branch must be hardcoded at this time. It will become an option in the future.
