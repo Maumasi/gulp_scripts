@@ -29,7 +29,10 @@ To add a message to a commit, provide the **-m** option.
 * **-f**: *FEATURE*
 * **-x**: *HOTFIX*
 * *Note: if no options are provided an auto-commit __AUTO-COMMIT__ *message header will be provided.*
+---
 <b>
+
+## Command examples:
 
 Commands in the Terminal:
 ```bash
