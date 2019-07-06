@@ -23,15 +23,6 @@ Messages are formatted to to show which **BRANCH** changes were committed to. Wh
 To add a message to a commit, provide the **-m** option.
 <b>
 
-*A standard message commit*
-Commands in the Terminal:
-```bash
-gulp push -m "setting up gulp automation"
-
-# output
-# [BRANCH] master | [USER] Liu Maumasi :: MESSAGE :: setting up gulp automation
-```
-
 ### Setting a specific commit header:
 Message options are:
 * **-s**: *STABLE*
@@ -39,9 +30,8 @@ Message options are:
 * **-f**: *FEATURE*
 * **-x**: *HOTFIX*
 * *Note: if no options are provided an auto-commit __AUTO-COMMIT__ *message header will be provided.*
+<b>
 
-
-*A standard message commit*
 Commands in the Terminal:
 ```bash
 # Pushing a commit with a message
@@ -49,27 +39,27 @@ gulp push -m "setting up gulp automation"
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: MESSAGE :: setting up gulp automation
 
+
 # STABLE with message
 gulp push -sm "setting up gulp automation"
-
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: STABLE :: setting up gulp automation
 
+
 # BROKEN with message
 gulp push -bm "feature not working as expected"
-
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: BROKEN :: feature not working as expected
 
+
 # AUTO-COMMIT
 gulp push
-
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: AUTO-COMMIT :: no message for commit.
 
+
 # AUTO-COMMIT message with option header
 gulp push -s
-
 # output
 # [BRANCH] master | [USER] Liu Maumasi :: STABLE :: no message for commit.
 ```
